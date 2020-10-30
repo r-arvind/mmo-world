@@ -1,0 +1,35 @@
+{
+  "name": "viworld",
+  "version": "1.0.0",
+  "description": "A test ground for various custom 3D features. Built with [three.js](https://github.com/mrdoob/three.js).",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swift502/sketchbook.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swift502/sketchbook/issues"
+  },
+  "homepage": "https://github.com/swift502/sketchbook#readme",
+  "devDependencies": {
+    "webpack": "^5.3.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.2.0"
+  },
+  "dependencies": {
+    "babylonjs": "^4.1.0",
+    "babylonjs-gui": "^4.1.0",
+    "babylonjs-loaders": "^4.1.0",
+    "babylonjs-materials": "^4.1.0",
+    "cannon": "^0.6.2",
+    "lodash": "^4.17.11"
+  }
+}
