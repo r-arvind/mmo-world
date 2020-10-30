@@ -1,5 +1,5 @@
 # ViWorld - An online virtual world
 
-A 3D virtual place to meet and greet people
+Client application for a web based mmo
 
-Checkout the a simple demo world [here](https://game-template.netlify.app/)
+Checkout the a simple demo world [here](https://mmo.netlify.app/)
